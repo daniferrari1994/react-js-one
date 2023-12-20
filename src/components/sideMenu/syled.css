@@ -1,0 +1,22 @@
+/* Estilos del menú lateral */
+.sidebar {
+    width: 0;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    transition: width 0.3s ease;
+    overflow-x: hidden;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .sidebar.show {
+    width: 250px;
+  }
